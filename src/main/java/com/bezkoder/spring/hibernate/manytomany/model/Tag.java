@@ -3,7 +3,7 @@ package com.bezkoder.spring.hibernate.manytomany.model;
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -30,7 +30,7 @@ public class Tag {
   public Tag() {
 
   }
-  
+
   public long getId() {
     return id;
   }
